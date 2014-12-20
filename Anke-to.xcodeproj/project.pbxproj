@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		876430EA1A4577130004E512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876430E91A4577130004E512 /* Foundation.framework */; };
+		876430EC1A4577130004E512 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876430EB1A4577130004E512 /* CoreGraphics.framework */; };
+		876430EE1A4577130004E512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876430ED1A4577130004E512 /* UIKit.framework */; };
+		876430F41A4577130004E512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 876430F21A4577130004E512 /* InfoPlist.strings */; };
+		876430F61A4577130004E512 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 876430F51A4577130004E512 /* main.m */; };
+		876430FA1A4577130004E512 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 876430F91A4577130004E512 /* AppDelegate.m */; };
+		876430FD1A4577130004E512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876430FB1A4577130004E512 /* Main.storyboard */; };
+		876431001A4577130004E512 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876430FF1A4577130004E512 /* ViewController.m */; };
+		876431021A4577130004E512 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876431011A4577130004E512 /* Images.xcassets */; };
+		876431091A4577130004E512 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876431081A4577130004E512 /* XCTest.framework */; };
+		8764310A1A4577130004E512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876430E91A4577130004E512 /* Foundation.framework */; };
+		8764310B1A4577130004E512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876430ED1A4577130004E512 /* UIKit.framework */; };
+		876431131A4577130004E512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 876431111A4577130004E512 /* InfoPlist.strings */; };
+		876431151A4577130004E512 /* Anke_toTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 876431141A4577130004E512 /* Anke_toTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8764310C1A4577130004E512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876430DE1A4577130004E512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876430E51A4577130004E512;
+			remoteInfo = "Anke-to";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		876430E61A4577130004E512 /* Anke-to.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anke-to.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		876430E91A4577130004E512 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		876430EB1A4577130004E512 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		876430ED1A4577130004E512 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		876430F11A4577130004E512 /* Anke-to-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Anke-to-Info.plist"; sourceTree = "<group>"; };
+		876430F31A4577130004E512 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		876430F51A4577130004E512 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		876430F71A4577130004E512 /* Anke-to-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Anke-to-Prefix.pch"; sourceTree = "<group>"; };
+		876430F81A4577130004E512 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		876430F91A4577130004E512 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		876430FC1A4577130004E512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		876430FE1A4577130004E512 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		876430FF1A4577130004E512 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		876431011A4577130004E512 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		876431071A4577130004E512 /* Anke-toTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anke-toTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		876431081A4577130004E512 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		876431101A4577130004E512 /* Anke-toTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Anke-toTests-Info.plist"; sourceTree = "<group>"; };
+		876431121A4577130004E512 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		876431141A4577130004E512 /* Anke_toTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Anke_toTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		876430E31A4577130004E512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876430EC1A4577130004E512 /* CoreGraphics.framework in Frameworks */,
+				876430EE1A4577130004E512 /* UIKit.framework in Frameworks */,
+				876430EA1A4577130004E512 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876431041A4577130004E512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876431091A4577130004E512 /* XCTest.framework in Frameworks */,
+				8764310B1A4577130004E512 /* UIKit.framework in Frameworks */,
+				8764310A1A4577130004E512 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		876430DD1A4577130004E512 = {
+			isa = PBXGroup;
+			children = (
+				876430EF1A4577130004E512 /* Anke-to */,
+				8764310E1A4577130004E512 /* Anke-toTests */,
+				876430E81A4577130004E512 /* Frameworks */,
+				876430E71A4577130004E512 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		876430E71A4577130004E512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				876430E61A4577130004E512 /* Anke-to.app */,
+				876431071A4577130004E512 /* Anke-toTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		876430E81A4577130004E512 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				876430E91A4577130004E512 /* Foundation.framework */,
+				876430EB1A4577130004E512 /* CoreGraphics.framework */,
+				876430ED1A4577130004E512 /* UIKit.framework */,
+				876431081A4577130004E512 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		876430EF1A4577130004E512 /* Anke-to */ = {
+			isa = PBXGroup;
+			children = (
+				876430F81A4577130004E512 /* AppDelegate.h */,
+				876430F91A4577130004E512 /* AppDelegate.m */,
+				876430FB1A4577130004E512 /* Main.storyboard */,
+				876430FE1A4577130004E512 /* ViewController.h */,
+				876430FF1A4577130004E512 /* ViewController.m */,
+				876431011A4577130004E512 /* Images.xcassets */,
+				876430F01A4577130004E512 /* Supporting Files */,
+			);
+			path = "Anke-to";
+			sourceTree = "<group>";
+		};
+		876430F01A4577130004E512 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				876430F11A4577130004E512 /* Anke-to-Info.plist */,
+				876430F21A4577130004E512 /* InfoPlist.strings */,
+				876430F51A4577130004E512 /* main.m */,
+				876430F71A4577130004E512 /* Anke-to-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8764310E1A4577130004E512 /* Anke-toTests */ = {
+			isa = PBXGroup;
+			children = (
+				876431141A4577130004E512 /* Anke_toTests.m */,
+				8764310F1A4577130004E512 /* Supporting Files */,
+			);
+			path = "Anke-toTests";
+			sourceTree = "<group>";
+		};
+		8764310F1A4577130004E512 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				876431101A4577130004E512 /* Anke-toTests-Info.plist */,
+				876431111A4577130004E512 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		876430E51A4577130004E512 /* Anke-to */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876431181A4577130004E512 /* Build configuration list for PBXNativeTarget "Anke-to" */;
+			buildPhases = (
+				876430E21A4577130004E512 /* Sources */,
+				876430E31A4577130004E512 /* Frameworks */,
+				876430E41A4577130004E512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anke-to";
+			productName = "Anke-to";
+			productReference = 876430E61A4577130004E512 /* Anke-to.app */;
+			productType = "com.apple.product-type.application";
+		};
+		876431061A4577130004E512 /* Anke-toTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8764311B1A4577130004E512 /* Build configuration list for PBXNativeTarget "Anke-toTests" */;
+			buildPhases = (
+				876431031A4577130004E512 /* Sources */,
+				876431041A4577130004E512 /* Frameworks */,
+				876431051A4577130004E512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8764310D1A4577130004E512 /* PBXTargetDependency */,
+			);
+			name = "Anke-toTests";
+			productName = "Anke-toTests";
+			productReference = 876431071A4577130004E512 /* Anke-toTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		876430DE1A4577130004E512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "藤浦ゆず";
+				TargetAttributes = {
+					876431061A4577130004E512 = {
+						TestTargetID = 876430E51A4577130004E512;
+					};
+				};
+			};
+			buildConfigurationList = 876430E11A4577130004E512 /* Build configuration list for PBXProject "Anke-to" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 876430DD1A4577130004E512;
+			productRefGroup = 876430E71A4577130004E512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				876430E51A4577130004E512 /* Anke-to */,
+				876431061A4577130004E512 /* Anke-toTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		876430E41A4577130004E512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876431021A4577130004E512 /* Images.xcassets in Resources */,
+				876430F41A4577130004E512 /* InfoPlist.strings in Resources */,
+				876430FD1A4577130004E512 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876431051A4577130004E512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876431131A4577130004E512 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		876430E21A4577130004E512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876431001A4577130004E512 /* ViewController.m in Sources */,
+				876430FA1A4577130004E512 /* AppDelegate.m in Sources */,
+				876430F61A4577130004E512 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876431031A4577130004E512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876431151A4577130004E512 /* Anke_toTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8764310D1A4577130004E512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876430E51A4577130004E512 /* Anke-to */;
+			targetProxy = 8764310C1A4577130004E512 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		876430F21A4577130004E512 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876430F31A4577130004E512 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		876430FB1A4577130004E512 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876430FC1A4577130004E512 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		876431111A4577130004E512 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876431121A4577130004E512 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		876431161A4577130004E512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		876431171A4577130004E512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		876431191A4577130004E512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Anke-to/Anke-to-Prefix.pch";
+				INFOPLIST_FILE = "Anke-to/Anke-to-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8764311A1A4577130004E512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Anke-to/Anke-to-Prefix.pch";
+				INFOPLIST_FILE = "Anke-to/Anke-to-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8764311C1A4577130004E512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Anke-to.app/Anke-to";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Anke-to/Anke-to-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Anke-toTests/Anke-toTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8764311D1A4577130004E512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Anke-to.app/Anke-to";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Anke-to/Anke-to-Prefix.pch";
+				INFOPLIST_FILE = "Anke-toTests/Anke-toTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		876430E11A4577130004E512 /* Build configuration list for PBXProject "Anke-to" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876431161A4577130004E512 /* Debug */,
+				876431171A4577130004E512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876431181A4577130004E512 /* Build configuration list for PBXNativeTarget "Anke-to" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876431191A4577130004E512 /* Debug */,
+				8764311A1A4577130004E512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8764311B1A4577130004E512 /* Build configuration list for PBXNativeTarget "Anke-toTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8764311C1A4577130004E512 /* Debug */,
+				8764311D1A4577130004E512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 876430DE1A4577130004E512 /* Project object */;
+}

@@ -21,6 +21,10 @@
 		8764310B1A4577130004E512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876430ED1A4577130004E512 /* UIKit.framework */; };
 		876431131A4577130004E512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 876431111A4577130004E512 /* InfoPlist.strings */; };
 		876431151A4577130004E512 /* Anke_toTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 876431141A4577130004E512 /* Anke_toTests.m */; };
+		8764311F1A45951E0004E512 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8764311E1A45951E0004E512 /* QuartzCore.framework */; };
+		876431221A459B3D0004E512 /* kaitousoushinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876431211A459B3D0004E512 /* kaitousoushinViewController.m */; };
+		876431251A459D940004E512 /* timelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876431241A459D940004E512 /* timelineViewController.m */; };
+		876431281A459DFC0004E512 /* myfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876431271A459DFC0004E512 /* myfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,13 @@
 		876431101A4577130004E512 /* Anke-toTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Anke-toTests-Info.plist"; sourceTree = "<group>"; };
 		876431121A4577130004E512 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		876431141A4577130004E512 /* Anke_toTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Anke_toTests.m; sourceTree = "<group>"; };
+		8764311E1A45951E0004E512 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		876431201A459B3D0004E512 /* kaitousoushinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kaitousoushinViewController.h; sourceTree = "<group>"; };
+		876431211A459B3D0004E512 /* kaitousoushinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kaitousoushinViewController.m; sourceTree = "<group>"; };
+		876431231A459D940004E512 /* timelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timelineViewController.h; sourceTree = "<group>"; };
+		876431241A459D940004E512 /* timelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timelineViewController.m; sourceTree = "<group>"; };
+		876431261A459DFC0004E512 /* myfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myfileViewController.h; sourceTree = "<group>"; };
+		876431271A459DFC0004E512 /* myfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8764311F1A45951E0004E512 /* QuartzCore.framework in Frameworks */,
 				876430EC1A4577130004E512 /* CoreGraphics.framework in Frameworks */,
 				876430EE1A4577130004E512 /* UIKit.framework in Frameworks */,
 				876430EA1A4577130004E512 /* Foundation.framework in Frameworks */,
@@ -101,6 +113,7 @@
 		876430E81A4577130004E512 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8764311E1A45951E0004E512 /* QuartzCore.framework */,
 				876430E91A4577130004E512 /* Foundation.framework */,
 				876430EB1A4577130004E512 /* CoreGraphics.framework */,
 				876430ED1A4577130004E512 /* UIKit.framework */,
@@ -115,8 +128,14 @@
 				876430F81A4577130004E512 /* AppDelegate.h */,
 				876430F91A4577130004E512 /* AppDelegate.m */,
 				876430FB1A4577130004E512 /* Main.storyboard */,
+				876431261A459DFC0004E512 /* myfileViewController.h */,
+				876431271A459DFC0004E512 /* myfileViewController.m */,
 				876430FE1A4577130004E512 /* ViewController.h */,
 				876430FF1A4577130004E512 /* ViewController.m */,
+				876431231A459D940004E512 /* timelineViewController.h */,
+				876431241A459D940004E512 /* timelineViewController.m */,
+				876431201A459B3D0004E512 /* kaitousoushinViewController.h */,
+				876431211A459B3D0004E512 /* kaitousoushinViewController.m */,
 				876431011A4577130004E512 /* Images.xcassets */,
 				876430F01A4577130004E512 /* Supporting Files */,
 			);
@@ -250,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				876431001A4577130004E512 /* ViewController.m in Sources */,
+				876431221A459B3D0004E512 /* kaitousoushinViewController.m in Sources */,
+				876431251A459D940004E512 /* timelineViewController.m in Sources */,
 				876430FA1A4577130004E512 /* AppDelegate.m in Sources */,
+				876431281A459DFC0004E512 /* myfileViewController.m in Sources */,
 				876430F61A4577130004E512 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +339,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: yuma oda (LVR95KVF6H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yuma oda (LVR95KVF6H)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -335,7 +358,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "263769d6-5e7e-4570-98a7-2a8477680d89";
 				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -355,7 +380,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: yuma oda (LVR95KVF6H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yuma oda (LVR95KVF6H)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -366,6 +392,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "263769d6-5e7e-4570-98a7-2a8477680d89";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -376,10 +403,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yuma oda (LVR95KVF6H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yuma oda (LVR95KVF6H)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Anke-to/Anke-to-Prefix.pch";
 				INFOPLIST_FILE = "Anke-to/Anke-to-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "263769d6-5e7e-4570-98a7-2a8477680d89";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +420,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yuma oda (LVR95KVF6H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yuma oda (LVR95KVF6H)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Anke-to/Anke-to-Prefix.pch";
 				INFOPLIST_FILE = "Anke-to/Anke-to-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "263769d6-5e7e-4570-98a7-2a8477680d89";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +491,7 @@
 				8764311A1A4577130004E512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8764311B1A4577130004E512 /* Build configuration list for PBXNativeTarget "Anke-toTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +500,7 @@
 				8764311D1A4577130004E512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

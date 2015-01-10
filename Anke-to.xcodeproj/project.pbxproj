@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		875904BF1A6134130004F258 /* anketo-anketotoru.gif in Resources */ = {isa = PBXBuildFile; fileRef = 875904BE1A6134120004F258 /* anketo-anketotoru.gif */; };
 		876430EA1A4577130004E512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876430E91A4577130004E512 /* Foundation.framework */; };
 		876430EC1A4577130004E512 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876430EB1A4577130004E512 /* CoreGraphics.framework */; };
 		876430EE1A4577130004E512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876430ED1A4577130004E512 /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		8764310B1A4577130004E512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876430ED1A4577130004E512 /* UIKit.framework */; };
 		876431131A4577130004E512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 876431111A4577130004E512 /* InfoPlist.strings */; };
 		876431151A4577130004E512 /* Anke_toTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 876431141A4577130004E512 /* Anke_toTests.m */; };
-		8764311F1A45951E0004E512 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8764311E1A45951E0004E512 /* QuartzCore.framework */; };
 		876431221A459B3D0004E512 /* kaitousoushinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876431211A459B3D0004E512 /* kaitousoushinViewController.m */; };
 		876431251A459D940004E512 /* timelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876431241A459D940004E512 /* timelineViewController.m */; };
 		876431281A459DFC0004E512 /* myfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876431271A459DFC0004E512 /* myfileViewController.m */; };
@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		875904BE1A6134120004F258 /* anketo-anketotoru.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "anketo-anketotoru.gif"; path = "../../../Pictures/anketo-anketotoru.gif"; sourceTree = "<group>"; };
 		876430E61A4577130004E512 /* Anke-to.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anke-to.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		876430E91A4577130004E512 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		876430EB1A4577130004E512 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,7 +58,6 @@
 		876431101A4577130004E512 /* Anke-toTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Anke-toTests-Info.plist"; sourceTree = "<group>"; };
 		876431121A4577130004E512 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		876431141A4577130004E512 /* Anke_toTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Anke_toTests.m; sourceTree = "<group>"; };
-		8764311E1A45951E0004E512 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		876431201A459B3D0004E512 /* kaitousoushinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kaitousoushinViewController.h; sourceTree = "<group>"; };
 		876431211A459B3D0004E512 /* kaitousoushinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kaitousoushinViewController.m; sourceTree = "<group>"; };
 		876431231A459D940004E512 /* timelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timelineViewController.h; sourceTree = "<group>"; };
@@ -71,7 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8764311F1A45951E0004E512 /* QuartzCore.framework in Frameworks */,
 				876430EC1A4577130004E512 /* CoreGraphics.framework in Frameworks */,
 				876430EE1A4577130004E512 /* UIKit.framework in Frameworks */,
 				876430EA1A4577130004E512 /* Foundation.framework in Frameworks */,
@@ -113,7 +112,6 @@
 		876430E81A4577130004E512 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8764311E1A45951E0004E512 /* QuartzCore.framework */,
 				876430E91A4577130004E512 /* Foundation.framework */,
 				876430EB1A4577130004E512 /* CoreGraphics.framework */,
 				876430ED1A4577130004E512 /* UIKit.framework */,
@@ -125,6 +123,7 @@
 		876430EF1A4577130004E512 /* Anke-to */ = {
 			isa = PBXGroup;
 			children = (
+				875904BE1A6134120004F258 /* anketo-anketotoru.gif */,
 				876430F81A4577130004E512 /* AppDelegate.h */,
 				876430F91A4577130004E512 /* AppDelegate.m */,
 				876430FB1A4577130004E512 /* Main.storyboard */,
@@ -247,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875904BF1A6134130004F258 /* anketo-anketotoru.gif in Resources */,
 				876431021A4577130004E512 /* Images.xcassets in Resources */,
 				876430F41A4577130004E512 /* InfoPlist.strings in Resources */,
 				876430FD1A4577130004E512 /* Main.storyboard in Resources */,
@@ -405,6 +405,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: yuma oda (LVR95KVF6H)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yuma oda (LVR95KVF6H)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/fujiurahiroshi/Downloads/parse-library-1",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Anke-to/Anke-to-Prefix.pch";
 				INFOPLIST_FILE = "Anke-to/Anke-to-Info.plist";
@@ -422,6 +426,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: yuma oda (LVR95KVF6H)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yuma oda (LVR95KVF6H)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/fujiurahiroshi/Downloads/parse-library-1",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Anke-to/Anke-to-Prefix.pch";
 				INFOPLIST_FILE = "Anke-to/Anke-to-Info.plist";
